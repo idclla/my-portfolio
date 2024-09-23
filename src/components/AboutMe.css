@@ -1,0 +1,78 @@
+/* AboutMe.css */
+.about-container {
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .about-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 35px;
+    width: 100%;
+    max-width: none;
+    margin-left: -290px;
+    margin-right: -20px;
+    padding: 1px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  
+  .about-section h3{
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    margin-left: -300px;  /* Pull to the left beyond the parent container */
+    margin-right: -300px; /* Pull to the right beyond the parent container */
+    padding: 20px; /* Add padding for extra spacing */
+    text-align: left;
+  }
+  
+  .process-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    margin-left: -280px; /* Pull it to the left */
+    margin-right: -250px; /* Pull it to the right */
+  }
+  
+  
+  
+  .step {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+  }
+  
+  .step-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .step-description {
+    text-align: left;
+  }
+  
+  .step-description h3 {
+    margin: 0;
+  }
+  
+  .step-description p {
+    margin: 0;
+  }
+  
